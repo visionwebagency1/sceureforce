@@ -463,9 +463,9 @@ const Home = () => {
   return (
     <>
       {/* HERO */}
-      <section style={{ position: 'relative', height: '100vh', minHeight: 640, display: 'flex', alignItems: 'flex-start', overflow: 'hidden' }}>
+      <section style={{ position: 'relative', height:'auto',minHeight:'100svh', display: 'flex', alignItems: 'flex-start', overflow: 'hidden' }}>
         <motion.div style={{y:bgY,position:'absolute',inset:'0',zIndex:0}}>      
-          <img src={IMG.hero} alt="SecureForce" style={{width:'100%',height:'100%',objectFit:'cover',objectPosition:'center top',display:'block'}}/>
+          <img src={IMG.hero} alt="SecureForce" style={{width:'100%',height:'100%',objectFit:'contain',background:'#06070a',objectPosition:'top center',display:'block'}}/>
           <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(100deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.65) 50%, rgba(0,0,0,0.28) 100%)' }} />
           <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(6,7,10,0.97) 0%, rgba(6,7,10,0.2) 40%, transparent 65%)' }} />
           <motion.div initial={{ scaleX: 0 }} animate={{ scaleX: 1 }} transition={{ duration: 1.6, ease: [0.22, 1, 0.36, 1] }}
