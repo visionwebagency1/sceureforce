@@ -489,7 +489,7 @@ const Home = () => {
             </motion.h1>
             <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }}
               style={{ fontSize: 18, color: 'rgba(255,255,255,0.7)', lineHeight: 1.8, marginBottom: 40, fontWeight: 300, maxWidth: 500 }}>
-              Professionele bewaking, receptiebeveiliging en evenementenbeveiliging voor bedrijven in heel Nederland.
+              Pofessionele bewaking, receptiebeveiliging en evenementenbeveiliging voor bedrijven in heel Nederland.
             </motion.p>
             <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.56 }}
               style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
