@@ -471,7 +471,7 @@ const Home = () => {
           <motion.div initial={{ scaleX: 0 }} animate={{ scaleX: 1 }} transition={{ duration: 1.6, ease: [0.22, 1, 0.36, 1] }}
             style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: 2, background: 'linear-gradient(90deg, var(--gold) 0%, transparent 70%)', transformOrigin: 'left' }} />
         </motion.div>
-        <div className="wrap" style={{ position: 'relative', zIndex: 1, width: '100%', paddingTop: 'calc(64px + 56px)', paddingBottom: 80 }}>
+        <div className="wrap" style={{ position: 'relative', zIndex: 1, width: '100%', paddingTop: 'calc(64px + 24px)', paddingBottom: 80 }}>
           <div style={{ maxWidth: 620 }}>
             <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.2 }}
               style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 26 }}>
