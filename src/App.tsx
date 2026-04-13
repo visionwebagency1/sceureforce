@@ -306,7 +306,7 @@ const PageHome = () => {
   return (
     <>
       {/* HERO */}
-      <section style={{position:'relative',height:'100svh',minHeight:560,display:'flex',alignItems:'flex-start',overflow:'hidden'}}>
+      <section style={{position:'relative',height:'70svh',minHeight:560,display:'flex',alignItems:'flex-start',overflow:'hidden'}}>
         <motion.div style={{y:bgY,position:'absolute',inset:'0',zIndex:0}}>
           <img src={IMG.event} alt="SecureForce" style={{width:'100%',height:'100%',objectFit:'cover',objectPosition:'center 20%',display:'block'}}/>
           <div style={{position:'absolute',inset:0,background:'linear-gradient(100deg,rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.6) 55%,rgba(0,0,0,0.2) 100%)'}}/>
